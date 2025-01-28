@@ -26,7 +26,7 @@ public:
     void cambiarDatos() {
         std::cout << "\nIntroduce la nueva clave de la materia: ";
         std::cin >> clave;
-        std::cin.ignore(); // Limpiar el buffer de entrada
+        std::cin.ignore();
 
         std::cout << "Escribe el nombre de la materia: ";
         std::getline(std::cin, nombre);
